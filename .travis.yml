@@ -1,7 +1,5 @@
 language: python
 python:
   - "3.6.1"
-before_install:
-  - sudo apt-get -y update && app add build-base
 install:
   - pip install -r requirements.txt
