@@ -1,6 +1,7 @@
 language: python
 services:
   - docker
+script: pytest # run tests
 before_install:
   - docker build -t test .
-  
+
